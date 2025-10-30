@@ -11,7 +11,7 @@ export default function Home() {
         {/* Text Content */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
-            Hi, I&apos;m <span className="text-primary-600">Your Name</span>
+            Hi, I&apos;m <span className="text-primary-600">Azka</span>
           </h1>
 
           <p className="text-xl sm:text-2xl text-gray-600 mb-6">
