@@ -51,9 +51,9 @@ export default function Home() {
       {/* Optional: Featured Stats or Skills */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20">
         {[
-          { label: "Years Experience", value: "5+" },
-          { label: "Projects Completed", value: "50+" },
-          { label: "Happy Clients", value: "30+" },
+          { label: "Years Experience", value: "2+" },
+          { label: "Projects Completed", value: "30+" },
+          { label: "Happy Clients", value: "10+" },
           { label: "Technologies", value: "15+" },
         ].map((stat) => (
           <div key={stat.label} className="text-center">
