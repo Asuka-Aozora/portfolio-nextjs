@@ -15,7 +15,7 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 export function getImageUrl(imagePath: string | null): string {
   if (!imagePath) {
     // Placeholder image jika tidak ada gambar
-    return "/placeholder-project.jpg";
+    return "/placeholder-project.png";
   }
 
   const { data } = supabase.storage.from(bucketName).getPublicUrl(imagePath);

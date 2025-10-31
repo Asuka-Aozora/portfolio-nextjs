@@ -4,10 +4,12 @@
 export default function AboutPage() {
   // Daftar skills/technologies
   const skills = [
-    { category: 'Frontend', items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Vue.js'] },
-    { category: 'Backend', items: ['Node.js', 'Express', 'Python', 'Django', 'FastAPI'] },
+    { category: 'Frontend', items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'JavaScript'] },
+    { category: 'Backend', items: ['Node.js', 'Express', 'PHP'] },
     { category: 'Database', items: ['PostgreSQL', 'MongoDB', 'Supabase', 'Firebase', 'Redis'] },
-    { category: 'Tools', items: ['Git', 'Docker', 'AWS', 'Vercel', 'CI/CD'] },
+    { category: 'Tools', items: ['Git', 'Vercel', 'Railway', 'Linux Server (Ubuntu, AlmaLinux)'] },
+    { category: 'Security & Auth', items: ['JWT', 'Firebase Auth', 'RBAC'] },
+    { category: 'Soft Skills', items: ['Debugging', 'Mentoring', 'Collaboration', 'Problem-Solving', 'Fast Learning'] },
   ]
 
   return (
@@ -25,21 +27,23 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Who I Am</h2>
         <div className="space-y-4 text-gray-700 leading-relaxed">
           <p>
-            I&apos; a passionate full-stack developer with over 5 years of
-            experience building web applications. I specialize in modern
-            JavaScript frameworks and love creating intuitive, performant user
-            experiences.
+            I&apos;m a dedicated Full-Stack Developer and IT Support Specialist
+            with hands-on experience in building, deploying, and maintaining web
+            applications. I specialize in modern JavaScript technologies —
+            particularly Node.js, Express, React, and Next.js — and enjoy
+            working with both SQL and NoSQL databases such as PostgreSQL, MySQL,
+            and MongoDB.
           </p>
           <p>
-            My journey in tech started with a curiosity about how websites work,
-            which evolved into a career dedicated to crafting digital solutions.
-            I believe in writing clean, maintainable code and staying updated
-            with the latest technologies.
+            Currently, I’m a mentor at Qodr IT Training, guiding junior
+            developers through real project development, debugging, and
+            deployment workflows. I also serve as CTO at Daysra Tech, a startup
+            initiative focused on productivity-based web solutions using
+            Supabase and Prisma.
           </p>
           <p>
-            When I&apos;m not coding, you can find me contributing to
-            open-source projects, writing technical blogs, or exploring new
-            technologies and frameworks.
+            I believe in writing clean, maintainable code and continuously
+            improving through learning, collaboration, and discipline.
           </p>
         </div>
       </div>
@@ -76,15 +80,15 @@ export default function AboutPage() {
           Let&apos;s Connect
         </h2>
         <p className="text-gray-600 mb-6">
-          I&apos;m always open to discussing new projects, creative ideas, or
-          opportunities to be part of your vision.
+          I&apos;m open to collaborating on meaningful web projects, mentoring
+          sessions, or technical discussions.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="mailto:your.email@example.com" className="btn-primary">
+          <a href="mailto:azdin1411@gmail.com" className="btn-primary">
             Send Email
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/azka-musthafa-hafiz/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-secondary"

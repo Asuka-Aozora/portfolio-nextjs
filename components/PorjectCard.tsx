@@ -3,27 +3,28 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Project } from "@/lib/supabase";
+import { getImageUrl, Project } from "@/lib/supabase";
 
 interface ProjectCardProps {
   project: Project;
 }
 
 export default function ProjectCard({ project }: ProjectCardProps) {
+  // Get public URL dari Supabase Storage
+  const imageUrl = getImageUrl(project.image_path);
+
   return (
     <div className="card overflow-hidden">
       {/* Project Image */}
-      {project.image_url && (
-        <div className="relative h-48 w-full bg-gray-200">
-          <Image
-            src={project.image_url}
-            alt={project.title}
-            fill
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
-        </div>
-      )}
+      <div className="relative h-48 w-full bg-gray-200">
+        <Image
+          src={imageUrl}
+          alt={project.title}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
+      </div>
 
       {/* Project Content */}
       <div className="p-6">

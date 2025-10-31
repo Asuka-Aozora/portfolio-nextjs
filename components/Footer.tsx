@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           {/* Copyright */}
           <div className="text-gray-600 text-sm">
-            © {currentYear} Your Name. All rights reserved.
+            © {currentYear} Azka. All rights reserved.
           </div>
 
           {/* Social Links */}
