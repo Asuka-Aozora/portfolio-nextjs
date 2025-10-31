@@ -19,8 +19,12 @@ export default function Home() {
           </p>
 
           <p className="text-lg text-gray-600 mb-8 max-w-2xl">
-            I build modern web applications with cutting-edge technologies.
-            Passionate about creating elegant solutions to complex problems.
+            I build modern and scalable web applications using JavaScript,
+            Node.js, and Next.js. Currently focused on developing robust
+            back-end systems and clean front-end interfaces with Supabase,
+            PostgreSQL, and modern frameworks. Passionate about crafting secure,
+            maintainable, and efficient digital products that solve real-world
+            problems.
           </p>
 
           {/* CTA Buttons */}
